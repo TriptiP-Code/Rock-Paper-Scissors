@@ -24,7 +24,7 @@ const showWinner = (userWin , userChoice , compChoice) =>{
         userScore++;
         userScorePara.innerText = userScore;
         // console.log("you Win!");
-        msg.innerText =`you Win!! user choice" ${userChoice}"  beats your choice " ${compChoice} "`;
+        msg.innerText =`you Win!! user choice" ${userChoice}"  beats computer choice " ${compChoice} "`;
         msg.style.backgroundColor="green"
     }
     else {
@@ -70,4 +70,5 @@ choices.forEach((choice) => {
 
         playGame(userChoice);
     });
+
 });
